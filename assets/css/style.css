@@ -13,11 +13,11 @@ header a {
     color: inherit;
     text-decoration: inherit;
     font-size: xx-large;
-    line-height: 75px;
     text-align: center;
 }
 
 .navigation {
+    top: 100px;
     text-align: center;
 }
 
@@ -25,20 +25,45 @@ header a {
     font-family: Cuprum, sans-serif;
     list-style: none;
     display: inline;
+    padding: 7.5px;
     margin: 75px;
+    border-radius: 5px;
+    background: rgb(250, 250, 250, .4);
 }
 
 .navigation li a {
-    color: inherit;
+    color: #071e26;
     text-decoration: inherit;
     font-size: large;
     text-align: center;
 }
 
 .navigation li a:hover {
-    border-bottom: 1px solid #071e26;
+    border-bottom: 2px solid #071e26;
 }
 
+img {
+    max-width: 50%;
+    border-radius: 50%;
+}
+
+#left-crystal-info {
+    float: left;
+    text-align: center;
+    max-width: 50%;
+    padding-top: 50px;
+    width: 50%;
+    padding-bottom: 50px;
+}
+
+#right-crystal-info {
+    float: right;
+    text-align: center;
+    max-width: 50%;
+    padding-top: 50px;
+    width: 50%;
+    padding-bottom: 50px;
+}
 
 
 footer {
@@ -51,13 +76,20 @@ footer {
     font-size: x-large;
 }
 
-footer li {
+footer ul li {
     list-style: none;
     display: inline;
-    padding-right: 10%;
-    padding-left: 10%;
+    padding: 10%;
+    float: none;
 }
 
 footer li a {
-    color: inherit;
+    color: #071e26;
+    padding: 7.5px;
+    border-radius: 5px;
+    background: rgb(250, 250, 250, .4);
+}
+
+footer li a:hover {
+    border: 3px solid #071e26;
 }
