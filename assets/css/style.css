@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro&family=Cuprum:ital,wght@1,500&display=swap');
+
+h1, h2 {
+    font-family: Cuprum, sans-serif;
+}
+
+#logo {
+    color: #071e26;
+    text-decoration: none;
+}
+
+header a {
+    color: inherit;
+    text-decoration: inherit;
+    font-size: xx-large;
+    line-height: 75px;
+    text-align: center;
+}
+
+.navigation {
+    text-align: center;
+}
+
+.navigation li {
+    font-family: Cuprum, sans-serif;
+    list-style: none;
+    display: inline;
+    margin: 75px;
+}
+
+.navigation li a {
+    color: inherit;
+    text-decoration: inherit;
+    font-size: large;
+    text-align: center;
+}
+
+.navigation li a:hover {
+    border-bottom: 1px solid #071e26;
+}
+
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #071e26;
+    text-align: center;
+    height: 100px;
+    font-size: x-large;
+}
+
+footer li {
+    list-style: none;
+    display: inline;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+footer li a {
+    color: inherit;
+}
