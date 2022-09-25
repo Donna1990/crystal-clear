@@ -73,7 +73,6 @@ header a {
     background: rgb(250, 250, 250, .8);
     box-sizing: border-box;
     font-size: large;
-    overflow: scroll;
 }
 
 .about-crystals div p {
@@ -138,5 +137,37 @@ footer li a {
 }
 
 footer li a:hover {
+    border: 3px solid #fafafa;
+}
+
+.newsletter-box {
+    padding-right: 20%;
+    padding-left: 20%;
+    text-align: center;
+}
+
+hr {
+    border: 0;
+}
+
+#newsletter {
+    font-family: 'Advent Pro', sans-serif;
+    text-align: center;
+    border-radius: 5px;
+    background: rgb(250, 250, 250, .8);
+    font-size: large;
+    width: 100%;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.submit-button {
+    color: #fafafa;
+    padding: 7.5px;
+    border-radius: 5px;
+    background: rgb(7, 30, 38, .4);
+}
+
+.submit-button:hover {
     border: 3px solid #fafafa;
 }
