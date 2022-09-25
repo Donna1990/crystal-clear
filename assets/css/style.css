@@ -1,18 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Advent+Pro&family=Cuprum:ital,wght@1,500&display=swap');
 
+.bg-image {
+    background-image: url('../images/closeup-fluorite.jpeg');
+    background-repeat: no-repeat;
+    position: fixed;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+    top: 0;
+    left: 0;
+}
+
 h1, h2 {
     font-family: Cuprum, sans-serif;
 }
 
 #logo {
-    color: #071e26;
+    color: #fafafa;
     text-decoration: none;
+    letter-spacing: 6px;
+    text-shadow: 2px 2px #071e26;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 header a {
     color: inherit;
     text-decoration: inherit;
-    font-size: xx-large;
+    font-size: 250%;
     text-align: center;
 }
 
@@ -28,18 +43,18 @@ header a {
     padding: 7.5px;
     margin: 75px;
     border-radius: 5px;
-    background: rgb(250, 250, 250, .4);
+    background: rgb(7, 30, 38, .4);
 }
 
 .navigation li a {
-    color: #071e26;
+    color: #fafafa;
     text-decoration: inherit;
     font-size: large;
     text-align: center;
 }
 
 .navigation li a:hover {
-    border-bottom: 2px solid #071e26;
+    border-bottom: 2px solid #fafafa;
 }
 
 img {
@@ -70,7 +85,7 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    color: #071e26;
+    color: #fafafa;
     text-align: center;
     height: 100px;
     font-size: x-large;
@@ -84,12 +99,12 @@ footer ul li {
 }
 
 footer li a {
-    color: #071e26;
+    color: #fafafa;
     padding: 7.5px;
     border-radius: 5px;
-    background: rgb(250, 250, 250, .4);
+    background: rgb(7, 30, 38, .4);
 }
 
 footer li a:hover {
-    border: 3px solid #071e26;
+    border: 3px solid #fafafa;
 }
