@@ -10,7 +10,17 @@ body {
     min-height: 100%;
 }
 
-h1, h2 {
+h1 {
+    font-family: 'Advent Pro', sans-serif;
+    padding-bottom: 2.5%;
+}
+
+h2 {
+    font-family: 'Advent Pro', sans-serif;
+    padding-bottom: 2%;
+}
+
+h4 {
     font-family: 'Advent Pro', sans-serif;
 }
 
@@ -34,6 +44,8 @@ header a {
     text-decoration: inherit;
     font-size: 250%;
     text-align: center;
+    padding-top: 10%;
+    padding-bottom: 5%;
 }
 
 .navigation {
@@ -104,7 +116,47 @@ header a {
     width: 150px;
     border: 1px solid #fafafa;
     border-radius: 50%;
+}
 
+.crystal-care {
+    font-family: 'Advent Pro', sans-serif;
+    border-radius: 5px;
+    background: rgb(250, 250, 250, .8);
+    box-sizing: border-box;
+    font-size: large;
+    margin-bottom: 7.5rem;
+    text-align: center;
+    padding-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.crystal-care h2 {
+    text-align: center;
+    padding-top: 5%;
+}
+
+.crystal-care p {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 2.5%;
+}
+
+.crystal-care ul {
+    list-style: none;
+    padding: 0;
+}
+
+.crystal-care hr {
+    margin-inline-start: 6%;
+    margin-inline-end: 6%;
+}
+
+#crystal-care-image {
+    height: 150px;
+    width: 150px;
+    border: 1px solid #fafafa;
+    border-radius: 50%;
 }
 
 footer {
@@ -145,9 +197,11 @@ footer li a:hover {
     padding-right: 20%;
     padding-left: 20%;
     text-align: center;
+    padding-bottom: 20%;
+    padding-top: 2.5%;
 }
 
-hr {
+.newsletter-box hr {
     border: 0;
 }
 
@@ -160,6 +214,7 @@ hr {
     width: 100%;
     padding-top: 75px;
     padding-bottom: 75px;
+    display: block;
 }
 
 .submit-button {
@@ -205,11 +260,25 @@ hr {
         padding-left: 5%;
         padding-right: 5%;
     }
+
+    .newsletter-box {
+    }
+
+    #newsletter {
+        font-family: 'Advent Pro', sans-serif;
+        text-align: center;
+        border-radius: 5px;
+        background: rgb(250, 250, 250, .8);
+        font-size: large;
+        width: 100%;
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
 }
 
 @media screen and (max-width: 950px) {
     header a {
-        font-size: 125%;
+        font-size: 100%;
     }
 
     .navigation li {
@@ -222,5 +291,19 @@ hr {
     #left-about-image {
         height: 100px;
         width: 100px;
+    }
+
+    .newsletter-box {
+    }
+
+    #newsletter {
+        font-family: 'Advent Pro', sans-serif;
+        text-align: center;
+        border-radius: 5px;
+        background: rgb(250, 250, 250, .8);
+        font-size: large;
+        width: 100%;
+        padding-top: 75px;
+        padding-bottom: 75px;
     }
 }
