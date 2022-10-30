@@ -231,16 +231,13 @@ footer li a:hover {
 }
 
 .gallery {
-    border: 1px solid #ccc;
+    border: 2px solid #fafafa;
     background: rgb(7, 30, 38, .4);
     display: block;
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
-  }
-  
-.gallery:hover {
-    border: 1px solid #777;
+    border-radius: 5px;
   }
   
 .gallery img {
