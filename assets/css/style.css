@@ -78,7 +78,6 @@ header a {
 
 .about-crystals div {
     font-family: 'Advent Pro', sans-serif;
-    display: inline;
     border-radius: 5px;
     background: rgb(250, 250, 250, .8);
     box-sizing: border-box;
@@ -92,23 +91,20 @@ header a {
 }
 
 #left-crystal-info {
-    float: left;
     text-align: center;
-    max-width: 45%;
-    padding-top: 50px;
-    width: 45%;
-    padding-bottom: 50px;
-    margin-left: 3%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 2.5%;
 }
 
 #right-crystal-info {
-    float: right;
     text-align: center;
-    max-width: 45%;
-    padding-top: 50px;
-    width: 45%;
-    padding-bottom: 50px;
-    margin-right: 3%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-right: 10%;
+    margin-left: 10%;
 }
 
 #left-about-image {
@@ -126,9 +122,10 @@ header a {
     font-size: large;
     margin-bottom: 7.5rem;
     text-align: center;
-    padding-bottom: 5%;
     margin-left: 10%;
     margin-right: 10%;
+    display: block;
+    padding-bottom: 5%;
 }
 
 .crystal-care h2 {
@@ -179,7 +176,8 @@ footer ul {
 
 footer ul li {
     display: inline;
-    padding: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
     float: none;
 }
 
@@ -228,6 +226,38 @@ footer li a:hover {
     border: 3px solid #fafafa;
 }
 
+.gallery-body {
+    padding-bottom: 75px;
+}
+
+.gallery {
+    border: 1px solid #ccc;
+    background: rgb(7, 30, 38, .4);
+    display: block;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+.gallery img {
+    width: 60%;
+  }
+  
+.desc {
+    font-family: 'Advent Pro', sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    background: rgb(7, 30, 38, .4);
+    color: #fafafa;
+    width: 100%;
+    margin-right: 10%;
+  }
+
 @media screen and (max-width: 1200px) {
     header a {
         font-size: 175%;
@@ -252,8 +282,6 @@ footer li a:hover {
     .about-crystals div {
         padding-left: 10%;
         padding-right: 10%;
-        display: block;
-        float: none;
     }
 
     .about-crystals div p {
