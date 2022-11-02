@@ -37,6 +37,26 @@ This project was created to house a place for crystal fans. It includes a Homepa
 
 ![Calming Music Screencapture](assets/images/calming-music.png "Crystal Clear - Calming Music Screencapture")
 
+### Crystal Care Page
+
+- The Crystal Care section is a list of ways to take care of your crystals.
+- Includes a small image depicting a cleansing arrangement to assist users with their setup.
+- Includes a responsive video which shows some ways to cleanse and charge crystals. 
+
+### Gallery Page
+
+- The gallery displays a list of images of crystals with a description of each below. 
+- Each image, when clicked, directs to the wikipedia page for that specific crystal in a new tab. 
+
+### Join Us! Page
+
+- The Join Us! link is a sign up form for the Crystal Clear newsletter. 
+- The form requests a required first name, last name and email address. 
+
+![Newsletter Sign Up Screencapture](assets/images/newsletter.png "Crystal Clear - Newsletter Screencapture")
+
+
+
 
 Gathered images from pexels.com.
 
