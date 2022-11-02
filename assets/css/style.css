@@ -89,6 +89,7 @@ header a {
 .about-crystals div p {
     padding-left: 10%;
     padding-right: 10%;
+    padding-bottom: 20px;
 }
 
 #left-crystal-info {
@@ -113,6 +114,10 @@ header a {
     padding-bottom: 40px;
     margin-right: 10%;
     margin-left: 10%;
+}
+
+iframe {
+    max-width: 100%;
 }
 
 #left-about-image {
