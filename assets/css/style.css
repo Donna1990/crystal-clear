@@ -74,6 +74,7 @@ header a {
 
 .navigation li a:hover {
     border-bottom: 2px solid #fafafa;
+    box-sizing: border-box;
 }
 
 .about-crystals div {
@@ -144,9 +145,8 @@ header a {
     padding: 0;
 }
 
-.crystal-care hr {
-    margin-inline-start: 6%;
-    margin-inline-end: 6%;
+.crystal-care li {
+    padding-bottom: 2%;
 }
 
 #crystal-care-image {
@@ -189,6 +189,7 @@ footer li a {
 
 footer li a:hover {
     border: 3px solid #fafafa;
+    box-sizing: border-box;
 }
 
 .newsletter-box {
@@ -224,6 +225,7 @@ footer li a:hover {
 
 .submit-button:hover {
     border: 3px solid #fafafa;
+    box-sizing: border-box;
 }
 
 .gallery-body {
