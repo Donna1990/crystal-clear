@@ -2,7 +2,7 @@
 
 This project was created to house a place for crystal fans. It includes a Homepage which holds information regarding crystals and how to choose the correct crystal for you. It also holds a Crystal care page which explains different methods of looking after your crystals. The Crystal Gallery displays images of several popular crystals. I have also included a Newsletter Subscription page, under the title of Join Us!
 
-![Crystal Clear Homepage Screencapture](assets/images/crystal_clear_homepage.png "Crystal Clear")
+![Crystal Clear Am I Responsive](assets/images/am-i-responsive.png "Crystal Clear - Am I Responsive Screencapture")
 
 
 ## Features

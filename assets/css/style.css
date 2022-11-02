@@ -93,16 +93,23 @@ header a {
 
 #left-crystal-info {
     text-align: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin-right: 10%;
     margin-left: 10%;
-    margin-bottom: 2.5%;
 }
 
 #right-crystal-info {
     text-align: center;
-    padding-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+#final-crystal-info {
+    text-align: center;
+    padding-top: 20px;
     padding-bottom: 40px;
     margin-right: 10%;
     margin-left: 10%;
