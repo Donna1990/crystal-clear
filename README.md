@@ -19,6 +19,7 @@ This project was created to house a place for crystal fans. It includes a Homepa
 ### Crystal History Information Section
 
 - This section is clearly labelled and the first point of access for each user. This is used to draw the users attention.
+- This section also includes a small image to draw attention.
 
 ![Crystal History Screencapture](assets/images/crystal-history.png "Crystal Clear - Crystal History Screencapture")
 
