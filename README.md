@@ -9,6 +9,12 @@ This project was created to house a place for crystal fans. It includes a Homepa
 
 ## Features
 
+### Welcome Header
+
+- The header on the Index page welcomes the user to the website.
+
+![Crystal Clear Welcome Header](assets/images/welcome-header.png "Crystal Clear - Welcome Header Screencapture")
+
 ### Navigation Bar
 
 - The Navigation Bar is clearly labelled with titles leading to each different section of the Crystal Clear website. 
@@ -58,7 +64,10 @@ This project was created to house a place for crystal fans. It includes a Homepa
 
 ### Footer
 
-- 
+- Footer is displayed in bold colour for ease of navigation. 
+- When hovered over, each social link is surrounded by a border to easily identify which icon the user is about to click.
+
+![Footer Screencapture](assets/images/footer.png "Crystal Clear - Footer Screencapture")
 
 ## Features left to implement
 
@@ -67,9 +76,27 @@ This project was created to house a place for crystal fans. It includes a Homepa
 
 ## Testing 
 
+Testing of responsiveness was performed using Google Chrome DevTools.
+With this, I confirmed ease of use across multiple devices such as - 
+- iPhone SE
+- iPad Air
+- iPhone 12 Pro
 
+Also tested on the following devices - 
+- Macbook Pro - 1.4 GHz Quad-Core Intel Core i5 - MacOS 13.0 Beta (22A5365d)
+- iPhone 13 - iOS 16.1
 
+Each aspect of the website functions correctly on each device.
+All links open into a new tab.
+All videos respond correctly to their controls. 
 
+## Validator Testing 
+
+**HTML** 
+- No errors were returned when passing through the official
+
+**CSS**
+- No errors were returned when passing through the official [Jigsaw Validator](https://jigsaw.w3.org/css-validator/validator).
 
 Gathered images from pexels.com.
 
