@@ -93,10 +93,14 @@ All videos respond correctly to their controls.
 ## Validator Testing 
 
 **HTML** 
-- No errors were returned when passing through the official
+- No errors were returned when passing through the official [W3C Validator](https://validator.w3.org/nu/).
 
 **CSS**
 - No errors were returned when passing through the official [Jigsaw Validator](https://jigsaw.w3.org/css-validator/validator).
+
+## Deployment
+
+
 
 Gathered images from pexels.com.
 
