@@ -95,6 +95,31 @@ nav {
     padding-bottom: 20px;
 }
 
+#welcome {
+    border-radius: 8px;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 20px;
+    background-image: url('../images/welcome-amethyst.jpeg');
+    background-size: cover;
+}
+
+#welcome-text {
+    text-align: center;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    font-family: 'Advent Pro', sans-serif;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: large;
+    color: #fafafa;
+    padding: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(53, 2, 76, .4);
+}
+
+
 #left-crystal-info {
     text-align: center;
     padding-top: 20px;
