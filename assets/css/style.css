@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Advent+Pro&family=Cuprum:ital,wght@1,500&display=swap');
 
 body {
-    background-color: #071e26;
+    background-color: rgb(53, 2, 76);
     overflow: scroll;
-    background-image: url('../images/closeup-fluorite.jpeg');
+    background-image: url('../images/amethyst-bg.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
-    min-width: 100%;
-    min-height: 100%;
+    padding-bottom: 75px;
 }
 
 h1 {
@@ -28,13 +27,12 @@ h4 {
     color: #fafafa;
     text-decoration: none;
     letter-spacing: 6px;
-    text-shadow: 2px 2px #071e26;
     text-transform: uppercase;
     font-weight: 700;
-    background-color: #071e26;
     padding: 7.5px;
     border-radius: 5px;
-    background: rgb(7, 30, 38, .4);
+    background-color: rgb(53, 2, 76, .4);
+    ;
     margin-left: 25%;
     margin-right: 25%;
 }
@@ -64,23 +62,24 @@ header a {
 .navigation li a {
     color: #fafafa;
     text-decoration: inherit;
-    font-size: large;
+    font-size: x-large;
+    font-weight: 400;
     text-align: center;
     padding: 5px;
     margin: 75px;
     border-radius: 5px;
-    background: rgb(7, 30, 38, .4);
+    background-color: rgb(53, 2, 76, .4);
 }
 
 .navigation li a:hover {
-    border-bottom: 2px solid #fafafa;
+    border-bottom: 3px solid rgb(53, 2, 76);
     box-sizing: border-box;
 }
 
 .about-crystals div {
     font-family: 'Advent Pro', sans-serif;
     border-radius: 5px;
-    background: rgb(250, 250, 250, .8);
+    background-color: rgb(250, 250, 250, .8);
     box-sizing: border-box;
     font-size: large;
     margin-bottom: 2.5rem;
@@ -134,7 +133,7 @@ iframe {
 .crystal-care {
     font-family: 'Advent Pro', sans-serif;
     border-radius: 5px;
-    background: rgb(250, 250, 250, .8);
+    background-color: rgb(250, 250, 250, .8);
     box-sizing: border-box;
     font-size: large;
     margin-bottom: 7.5rem;
@@ -142,7 +141,6 @@ iframe {
     margin-left: 10%;
     margin-right: 10%;
     display: block;
-    padding-bottom: 5%;
 }
 
 .crystal-care h2 {
@@ -182,7 +180,7 @@ footer {
     text-align: center;
     font-size: x-large;
     z-index: 999;
-    background: rgb(7, 30, 38);
+    background-color: rgb(53, 2, 76);
 }
 
 footer ul {
@@ -224,7 +222,7 @@ footer li a:hover {
     font-family: 'Advent Pro', sans-serif;
     text-align: center;
     border-radius: 5px;
-    background: rgb(250, 250, 250, .8);
+    background-color: rgb(250, 250, 250, .8);
     font-size: large;
     width: 100%;
     padding-top: 75px;
@@ -236,22 +234,17 @@ footer li a:hover {
     color: #fafafa;
     padding: 7.5px;
     border-radius: 5px;
-    background: rgb(7, 30, 38, .4);
+    background-color: rgb(53, 2, 76, .8);
 }
 
 .submit-button:hover {
-    border: 3px solid #fafafa;
+    border: 3px solid rgb(53, 2, 76);
     box-sizing: border-box;
-}
-
-.gallery-body {
-    padding-bottom: 75px;
 }
 
 .gallery {
     border: 2px solid #fafafa;
-    background: rgb(7, 30, 38, .4);
-    display: block;
+    background-color: rgb(53, 2, 76, .8);
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
@@ -260,7 +253,8 @@ footer li a:hover {
   
 .gallery img {
     width: 60%;
-    border-radius: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   
 .desc {
@@ -268,7 +262,7 @@ footer li a:hover {
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: center;
-    background: rgb(7, 30, 38, .4);
+    background-color: rgb(53, 2, 76, .4);
     color: #fafafa;
     width: 100%;
     margin-right: 10%;
@@ -291,8 +285,8 @@ footer li a:hover {
     
     .navigation li {
         display: inline-block;
-        clear: none;
         top: 10px;
+        font-size: small;
     }
 
     .about-crystals div {
@@ -309,7 +303,7 @@ footer li a:hover {
         font-family: 'Advent Pro', sans-serif;
         text-align: center;
         border-radius: 5px;
-        background: rgb(250, 250, 250, .8);
+        background-color: rgb(250, 250, 250, .8);
         font-size: large;
         width: 100%;
         padding-top: 75px;
@@ -326,7 +320,7 @@ footer li a:hover {
         display: inline-block;
         clear: none;
         top: 10px;
-        font-size: medium;
+        font-size: small;
     }
 
     #left-about-image {
@@ -338,10 +332,12 @@ footer li a:hover {
         font-family: 'Advent Pro', sans-serif;
         text-align: center;
         border-radius: 5px;
-        background: rgb(250, 250, 250, .8);
+        background-color: rgb(250, 250, 250, .8);
         font-size: large;
         width: 100%;
         padding-top: 75px;
         padding-bottom: 75px;
+        padding-left: 25px;
+        padding-right: 25px;
     }
 }

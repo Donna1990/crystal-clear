@@ -13,6 +13,7 @@ This project was created to house a place for crystal fans. It includes a Homepa
 
 - The Navigation Bar is clearly labelled with titles leading to each different section of the Crystal Clear website. 
 - Each title is displayed on all pages in an identical manner to ensure the user is able to navigate without issue.
+- When hovered over, each title displays a white underline to clearly show the user which area they are navigating to.
 
 ![NavBar Screencapture](assets/images/navbar.png "Crystal Clear - NavBar Screencapture")
 
@@ -54,6 +55,18 @@ This project was created to house a place for crystal fans. It includes a Homepa
 - The form requests a required first name, last name and email address. 
 
 ![Newsletter Sign Up Screencapture](assets/images/newsletter.png "Crystal Clear - Newsletter Screencapture")
+
+### Footer
+
+- 
+
+## Features left to implement
+
+- Future updates may include a lunar calendar describing the best times to charge and use your crystals.
+- A section allowing users to choose their most compatible crystal based on their astrological sign.
+
+## Testing 
+
 
 
 
